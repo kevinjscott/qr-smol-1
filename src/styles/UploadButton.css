@@ -1,0 +1,32 @@
+#upload-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#upload-button:hover {
+  opacity: 1;
+}
+
+#upload-button:active {
+  background-color: #45a049;
+}
+
+#upload-button.highlight {
+  border: 2px solid #4CAF50;
+}
+
+#upload-button input[type="file"] {
+  display: none;
+}
+
+#upload-button img {
+  width: 100%;
+  height: auto;
+}
