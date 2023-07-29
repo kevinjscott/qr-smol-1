@@ -1,0 +1,33 @@
+#image-selector {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#image-selector button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#image-selector button.selected {
+  border: 2px solid #007BFF;
+}
+
+#image-selector button img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+#image-selector button.upload {
+  width: 50px;
+  height: 50px;
+  background-color: #007BFF;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
